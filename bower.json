@@ -1,6 +1,6 @@
 {
   "name": "angular-auto-height",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Emanuel Imhof <emanuel@twygmbh.ch>"
   ],
@@ -20,7 +20,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "src"
   ],
     "dependencies": {
         "angular": "~1.2"
