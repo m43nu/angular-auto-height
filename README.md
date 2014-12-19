@@ -14,7 +14,7 @@ Include it in your angular-app:
 ```
 angular.module('myApp', [
   // ...
-  'twygmbh.angular-auto-height'
+  'twygmbh.auto-height'
 ]).
 config(function () {
   // ...
@@ -25,7 +25,7 @@ Use it in your html:
 ```
 <div class="parent">
     <div class="sibling">I need some space too</div>
-    <div twy-auto-height>
+    <div auto-height>
         I stretch to the available height,
         calculated from the height available from .parent and my siblings.
     </div>
