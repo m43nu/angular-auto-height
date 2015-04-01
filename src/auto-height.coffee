@@ -12,7 +12,7 @@ angular.module('twygmbh.auto-height', []).
       angular.element($window).bind 'resize', ->
         additionalHeight = $attrs.additionalHeight || 0
         parentHeight = $window.innerHeight - $element.parent()[0].getBoundingClientRect().top
-        $element.css('height', (parentHeight - combineHeights(siblings($element)) - additionalHeight))
+        $element.css('height', (parentHeight - combineHeights(siblings($element)) - additionalHeight) + "px")
 
       $timeout ->
         angular.element($window).triggerHandler('resize')
