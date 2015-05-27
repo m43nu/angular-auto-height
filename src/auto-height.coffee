@@ -1,3 +1,8 @@
+###*
+# @version 0.0.4
+# @copyright TWY GmbH [All Rights Reserved]
+# @license MIT License (see LICENSE.txt)
+###
 angular.module('twygmbh.auto-height', []).
   directive 'autoHeight', [ '$window', '$timeout', ($window, $timeout) ->
     link: ($scope, $element, $attrs) ->
