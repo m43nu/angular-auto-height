@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/m43nu/angular-auto-height/issues"
   },
-  "homepage": "https://github.com/m43nu/angular-auto-height#readme"
+  "homepage": "https://github.com/m43nu/angular-auto-height#readme",
+  "peerDependencies": {
+    "angular": ">=1.2.0"
+  }
 }
