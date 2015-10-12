@@ -2,8 +2,7 @@
 
 ## Usage:
 
-
-Install it with bower:
+### bower:
 
 ```
 $ bower install twygmbh/angular-auto-height
@@ -15,6 +14,23 @@ Include it in your angular-app:
 angular.module('myApp', [
   // ...
   'twygmbh.auto-height'
+]).
+config(function () {
+  // ...
+```
+
+### npm:
+
+```
+$ npm install angular-auto-height
+```
+
+Include it in your angular-app:
+
+```
+angular.module('myApp', [
+  // ...
+  require('angular-auto-height')
 ]).
 config(function () {
   // ...
