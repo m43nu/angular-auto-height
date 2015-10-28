@@ -22,7 +22,8 @@
     "test",
     "tests",
     "src",
-    "gulpfile.js"
+    "gulpfile.js",
+    "*.nupkg"
   ],
     "dependencies": {
         "angular": "~1.2"

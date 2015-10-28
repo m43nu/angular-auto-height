@@ -12,7 +12,7 @@ gulp.task('build', function () {
 
 gulp.task('nuget', function (callback) {
     nugetpack({
-       id: 'angular-auto-height',
+       id: 'AngularAutoHeight',
        version: '0.0.5',
        authors: 'Emanuel Imhof <hello@twygmbh.ch>',
        description: 'An AngularJS directive to automatically adjust the height of an element corresponding to the parent and siblings.'
