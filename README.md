@@ -36,6 +36,23 @@ config(function () {
   // ...
 ```
 
+### NuGet:
+
+```
+$ Install-Package AngularAutoHeight
+```
+
+Include it in your angular-app:
+
+```
+angular.module('myApp', [
+  // ...
+  'm43nu.auto-height'
+]).
+config(function () {
+  // ...
+```
+
 Use it in your html:
 
 ```
