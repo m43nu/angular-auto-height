@@ -9,7 +9,7 @@
   "keywords": [
     "angular",
     "js",
-    "twy",
+    "m43nu",
     "auto",
     "height",
     "angularjs"
@@ -21,7 +21,8 @@
     "bower_components",
     "test",
     "tests",
-    "src"
+    "src",
+    "gulpfile.js"
   ],
     "dependencies": {
         "angular": "~1.2"
